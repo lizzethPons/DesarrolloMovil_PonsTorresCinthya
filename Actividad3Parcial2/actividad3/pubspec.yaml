@@ -1,0 +1,29 @@
+name: actividad3
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.8.0
+  flutter_map: ^8.3.2
+  latlong2: ^0.10.1
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Si vas a usar imágenes o archivos locales, descomenta las siguientes líneas:
+  # assets:
+  #   - assets/
